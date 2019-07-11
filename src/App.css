@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
+  --primary-color: #22eeaa;
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -24,12 +24,12 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: #333;
   text-decoration: none;
 }
 
 a:hover {
-  color: #666;
+  color: var(--primary-color);
 }
 
 ul {
@@ -364,7 +364,7 @@ table th {
 }
 
 .navbar a {
-  color: #fff;
+  color: #333;
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
@@ -375,6 +375,20 @@ table th {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
+}
+
+.navbar h1 {
+  color: #333;
+}
+
+.search-input {
+  border: none !important;
+  outline: none;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+}
+.search-input:focus,
+.search-input:active {
+  background: none !important;
 }
 
 /* Mobile Styles */
